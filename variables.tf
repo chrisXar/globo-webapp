@@ -57,4 +57,7 @@ variable "tfe_workspace_name" {
 #  description = "(Required) VPC ID of VPC for application deployment."
 #}
 
-
+variable "playbook_repository" {
+  type        = string
+  description = "URI of Ansible playbook"
+}
